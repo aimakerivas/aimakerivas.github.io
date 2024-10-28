@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Courier; -webkit-text-stroke: #000000}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Courier; -webkit-text-stroke: #000000; min-height: 16.0px}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;html&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;head&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"&gt;&lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;script type="text/javascript"&gt;</span></p>
+<p class="p1"><span class="s1">      google.charts.load('current', {'packages':['corechart']});</span></p>
+<p class="p1"><span class="s1">      google.charts.setOnLoadCallback(drawSeriesChart);</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">    function drawSeriesChart() {</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      var data = google.visualization.arrayToDataTable([</span></p>
+<p class="p1"><span class="s1">        ['ID', 'Life Expectancy', 'Fertility Rate', 'Region',     'Population'],</span></p>
+<p class="p1"><span class="s1">        ['CAN',    80.66,              1.67,      'North America',  33739900],</span></p>
+<p class="p1"><span class="s1">        ['DEU',    79.84,              1.36,      'Europe',         81902307],</span></p>
+<p class="p1"><span class="s1">        ['DNK',    78.6,               1.84,      'Europe',         5523095],</span></p>
+<p class="p1"><span class="s1">        ['EGY',    72.73,              2.78,      'Middle East',    79716203],</span></p>
+<p class="p1"><span class="s1">        ['GBR',    80.05,              2,         'Europe',         61801570],</span></p>
+<p class="p1"><span class="s1">        ['IRN',    72.49,              1.7,       'Middle East',    73137148],</span></p>
+<p class="p1"><span class="s1">        ['IRQ',    68.09,              4.77,      'Middle East',    31090763],</span></p>
+<p class="p1"><span class="s1">        ['ISR',    81.55,              2.96,      'Middle East',    7485600],</span></p>
+<p class="p1"><span class="s1">        ['RUS',    68.6,               1.54,      'Europe',         141850000],</span></p>
+<p class="p1"><span class="s1">        ['USA',    78.09,              2.05,      'North America',  307007000]</span></p>
+<p class="p1"><span class="s1">      ]);</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      var options = {</span></p>
+<p class="p1"><span class="s1">        title: 'Fertility rate vs life expectancy in selected countries (2010).' +</span></p>
+<p class="p1"><span class="s1">          ' X=Life Expectancy, Y=Fertility, Bubble size=Population, Bubble color=Region',</span></p>
+<p class="p1"><span class="s1">        hAxis: {title: 'Life Expectancy'},</span></p>
+<p class="p1"><span class="s1">        vAxis: {title: 'Fertility Rate'},</span></p>
+<p class="p1"><span class="s1">        bubble: {textStyle: {fontSize: 11}}</span></p>
+<p class="p1"><span class="s1">      };</span></p>
+<p class="p2"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1">      var chart = new google.visualization.BubbleChart(document.getElementById('series_chart_div'));</span></p>
+<p class="p1"><span class="s1">      chart.draw(data, options);</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    &lt;/script&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;body&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div id="series_chart_div" style="width: 900px; height: 500px;"&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">  &lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
